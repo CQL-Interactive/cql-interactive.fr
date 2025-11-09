@@ -1,5 +1,5 @@
 .env
-Site Web.code-workspace
 package-lock.json
+Site Web.code-workspace
 /dist
 /node_modules
