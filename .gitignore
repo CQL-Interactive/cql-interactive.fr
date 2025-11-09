@@ -1,0 +1,5 @@
+.env
+Site Web.code-workspace
+package-lock.json
+/dist
+/node_modules
