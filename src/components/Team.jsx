@@ -16,11 +16,11 @@ export default function Team() {
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>TML</h4>
-            <p>Développeur de C Quoi Le Jeu — a réalisé une grande partie de C Quoi Le Jeu</p>
+            <p>Développeur — a réalisé une grande partie de C Quoi Le Jeu</p>
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>Mael | BRS</h4>
-            <p>Manager Com en chef, et créateur des vidéos pour les réseaux sociaux</p>
+            <p>Manager Com en chef et créateur des vidéos pour les réseaux sociaux</p>
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>paraχrωme</h4>
