@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 
 export default function Partners() {
   const partners = [
-    {
-      name: "Veltrona",
-      description: "Innovation, design et développement sous une même signature.",
-      link: "https://veltrona.fr",
-      logo: "/logos/veltrona-logo.png"
-    }
+    /*{
+      name: "Nom",
+      description: "Description",
+      link: "Site",
+      logo: "/logos/logo.png"
+    }*/
   ];
 
   return (
@@ -36,6 +36,22 @@ export default function Partners() {
             </motion.div>
           ))}
         </div>
+        <motion.div
+          className="fade-in-up"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          style={{ marginTop: '2rem', textAlign: 'center' }}
+        >
+          <motion.a
+            className="cta"
+            href="#contact"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Envie de devenir partenaire de CQL Interactive ?
+          </motion.a>
+        </motion.div>
       </div>
     </section>
   );

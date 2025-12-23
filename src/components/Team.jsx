@@ -8,11 +8,11 @@ export default function Team() {
         <div className="grid team-grid">
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>Elie SAIDANE LEMERCIER</h4>
-            <p>Co-créateur & développeur de CQL Interactive</p>
+            <p>Co-créateur & Développeur en chef</p>
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>Théo GRAZIANO</h4>
-            <p>Co-créateur & Manager Com en chef</p>
+            <p>Co-créateur & Community Manager</p>
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>TML</h4>
@@ -20,7 +20,7 @@ export default function Team() {
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>Mael | BRS</h4>
-            <p>Manager Com en chef et créateur des vidéos pour les réseaux sociaux</p>
+            <p>Community Manager en chef</p>
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
             <h4>paraχrωme</h4>
