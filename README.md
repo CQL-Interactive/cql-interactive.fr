@@ -18,8 +18,6 @@ Nous sommes deux adolescents à avoir créé ce projet : Théo GRAZIANO et Elie 
 
 **Lien vers le TikTok :** [tiktok.com/@cql_interactive](https://www.tiktok.com/@cql_interactive)
 
-**Le Bento :** [bento.me/cql-interactive](https://bento.me/cql-interactive)
-
 **Lien vers la chaîne YouTube :** [youtube.com/@cql-interactive](https://www.youtube.com/@cql-interactive)
 
 **Lien vers Instagram :** [instagram.com/cql_interactive](https://www.instagram.com/cql_interactive)

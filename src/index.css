@@ -434,23 +434,6 @@ h2::after {
   gap: 1rem;
 }
 
-.footer-nav {
-  display: flex;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
-.footer-nav a {
-  color: rgba(0, 0, 0, 0.6);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-.footer-nav a:hover {
-  color: var(--gold-3);
-  transform: translateY(-2px);
-}
-
 /* Responsive */
 @media (max-width: 900px) {
   .site-nav {

@@ -10,8 +10,7 @@ export default function Contact() {
     { name: "Faire un don", url: "https://fr.tipeee.com/cql-interactive", icon: "💛" },
     { name: "Instagram", url: "https://www.instagram.com/cql_interactive", icon: "📷" },
     { name: "TikTok", url: "https://www.tiktok.com/@cql_interactive", icon: "🎵" },
-    { name: "YouTube", url: "https://www.youtube.com/@cql-interactive", icon: "📺" },
-    { name: "Bento", url: "https://bento.me/cql-interactive", icon: "🔗" }
+    { name: "YouTube", url: "https://www.youtube.com/@cql-interactive", icon: "📺" }
   ];
 
   const handleSubmit = async (e) => {
