@@ -26,7 +26,7 @@ Nous sommes deux adolescents à avoir créé ce projet : Théo GRAZIANO et Elie 
 
 **- [C Quoi Le Jeu](https://cquoilejeu.fr)**
 
-**- C Quoi La Réponse (en cours de développement)**
+**- C Quoi Le Film (en cours de développement)**
 
 ## **Execution en local :**
 
