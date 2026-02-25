@@ -4,15 +4,15 @@ export default function Projects() {
   const projects = [
     {
       title: "C Quoi Le Jeu",
-      description: "Un jeu en ligne gratuit — devinez le nom d'un jeu vidéo à partir d'une image.",
+      description: "Quiz sur les jeux vidéo — devinez le nom d'un jeu à partir d'une image.",
       link: "https://cquoilejeu.fr",
       logo: "/logos/cqlj-logo.png"
     },
     {
-      title: "C Quoi La Réponse",
-      description: "Quiz de culture générale — arrivera très prochainement.",
+      title: "C Quoi Le Film",
+      description: "Quiz sur le cinéma — devinez le nom d'un film à partir d'un extrait. Arrive bientôt !",
       soon: true,
-      logo: "/logos/cqlr-logo.png"
+      logo: "/logos/cqlf-logo.png"
     }
   ];
 
