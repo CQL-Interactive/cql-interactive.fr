@@ -1,16 +1,19 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faDiscord, faInstagram, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
   const [formResp, setFormResp] = useState('');
 
   const socialLinks = [
-    { name: "GitHub", url: "https://github.com/CQL-Interactive", icon: "💻" },
-    { name: "Discord", url: "https://discord.gg/Evu8WXm27z", icon: "💬" },
-    { name: "Faire un don", url: "https://fr.tipeee.com/cql-interactive", icon: "💛" },
-    { name: "Instagram", url: "https://www.instagram.com/cql_interactive", icon: "📷" },
-    { name: "TikTok", url: "https://www.tiktok.com/@cql_interactive", icon: "🎵" },
-    { name: "YouTube", url: "https://www.youtube.com/@cql-interactive", icon: "📺" }
+    { name: "GitHub", url: "https://github.com/CQL-Interactive", icon: faGithub },
+    { name: "Discord", url: "https://discord.gg/Evu8WXm27z", icon: faDiscord },
+    { name: "Faire un don", url: "https://fr.tipeee.com/cql-interactive", icon: faHeart },
+    { name: "Instagram", url: "https://www.instagram.com/cql_interactive", icon: faInstagram },
+    { name: "TikTok", url: "https://www.tiktok.com/@cql_interactive", icon: faTiktok },
+    { name: "YouTube", url: "https://www.youtube.com/@cql-interactive", icon: faYoutube }
   ];
 
   const handleSubmit = async (e) => {
@@ -87,7 +90,7 @@ export default function Contact() {
                   transition={{ delay: 0.1 + 0.05 * index }}
                 >
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    <span role="img" aria-label={link.name}>{link.icon} </span>
+                    <FontAwesomeIcon icon={link.icon} aria-label={link.name} style={{ marginRight: '0.5rem' }} />
                     {link.name}
                   </a>
                 </motion.li>

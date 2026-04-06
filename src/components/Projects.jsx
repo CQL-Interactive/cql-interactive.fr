@@ -4,13 +4,19 @@ export default function Projects() {
   const projects = [
     {
       title: "C Quoi Le Jeu",
-      description: "Quiz sur les jeux vidéo — devinez le nom d'un jeu à partir d'une image.",
+      description: "Notre projet principal : un quiz dans lequel il faut deviner le nom d'un jeu vidéo à partir d'une image !",
       link: "https://cquoilejeu.fr",
       logo: "/logos/cqlj-logo.png"
     },
     {
+      title: "Caaqlojin",
+      description: "La mascotte de CQL Interactive ainsi que notre bot Discord, toujours accompagnée de son fidèle compagnon CaqlojinAI qui répond à toutes vos questions !",
+      link: "https://discord.gg/Evu8WXm27z",
+      logo: "/logos/caaqlojin-logo.png"
+    },
+    {
       title: "C Quoi Le Film",
-      description: "Quiz sur le cinéma — devinez le nom d'un film à partir d'un extrait. Arrive bientôt !",
+      description: "Le nouveau défi que CQL Interactive s'est lancé :un quiz sur le cinéma dans lequel il faut deviner le nom d'un film à partir d'un extrait sonore, d'un même ou de la BO !",
       soon: true,
       logo: "/logos/cqlf-logo.png"
     }
@@ -38,7 +44,7 @@ export default function Projects() {
               <p>{project.description}</p>
               {!project.soon && (
                 <a className="link" href={project.link} target="_blank" rel="noopener noreferrer">
-                  Visiter le site
+                  Découvrir
                 </a>
               )}
               {project.soon && <span className="pill soon">Bientôt</span>}
