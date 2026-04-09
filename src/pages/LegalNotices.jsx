@@ -40,7 +40,7 @@ export default function LegalNotices() {
           <h3>Responsable de la publication :</h3>
           <ul>
             <li><strong>Nom :</strong> CQL Interactive</li>
-            <li><strong>Forme juridique :</strong> Groupe</li>
+            <li><strong>Forme juridique :</strong> Association de fait</li>
             <li><strong>Adresse email de contact :</strong> contact@cql-interactive.fr</li>
             <li><strong>Directeurs de publication :</strong> Elie Saidane Lemercier & Théo Graziano</li>
           </ul>
