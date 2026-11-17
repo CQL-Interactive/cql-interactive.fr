@@ -7,11 +7,11 @@ export default function Team() {
         <h2>Notre Équipe</h2>
         <div className="grid team-grid">
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
-            <h4>Elie SAIDANE LEMERCIER</h4>
+            <h4>Elie</h4>
             <p>Co-créateur & Développeur en chef</p>
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>
-            <h4>Théo GRAZIANO</h4>
+            <h4>Théo</h4>
             <p>Co-créateur & Community Manager</p>
           </motion.div>
           <motion.div className="card glass member" whileHover={{ scale: 1.02 }}>

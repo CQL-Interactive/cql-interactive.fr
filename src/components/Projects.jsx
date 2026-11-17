@@ -16,7 +16,7 @@ export default function Projects() {
     },
     {
       title: "C Quoi Le Film",
-      description: "Le nouveau défi que CQL Interactive s'est lancé :un quiz sur le cinéma dans lequel il faut deviner le nom d'un film à partir d'un extrait sonore, d'un même ou de la BO !",
+      description: "Le nouveau défi que CQL Interactive s'est lancé : un quiz sur le cinéma dans lequel il faut deviner le nom d'un film à partir d'un extrait sonore, d'un même ou de la BO !",
       soon: true,
       logo: "/logos/cqlf-logo.png"
     }

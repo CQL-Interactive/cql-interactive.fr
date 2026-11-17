@@ -4,7 +4,7 @@ CQL Interactive est un groupe créé par 2 adolescents qui regroupe plusieurs qu
 
 ## **Les co-créateurs🤝:**
 
-Nous sommes deux adolescents à avoir créé ce projet : Théo GRAZIANO et Elie SAIDANE LEMERCIER. "Nous voulons créer des jeux gratuits, sans publicités, accessibles à tous et respectueux des données."
+Nous sommes deux adolescents à avoir créé ce projet : Théo et Elie. "Nous voulons créer des jeux gratuits, sans publicités, accessibles à tous et respectueux des données."
 
 ## **Nous rejoindre🔗:**
 
